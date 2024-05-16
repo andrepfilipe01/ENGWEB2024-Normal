@@ -50,14 +50,13 @@ npm i mongoose --save
 npm start
 
 Construir a API de dados da seguinte forma:
-1º Eliminar a pasta view criada na inicialização do projeto
-2º Alterar a porta de entrada, para a porta pedida no enunciado(Ficheiro www da pasta bin)
-3º Alterar a app.js para fazer a conexão com o mongodb 
-4º Criar as pastas models e controllers ( Controllers contêm os controlos da bd e na pasta models contêm os Schemas da bd)
-5º Criação do model: Possui os modelos dos objetos existentes na bd.
-6º Criação do controller: Possui os controllers necessários para alterar os registos existentes na base de dados (Operações de CRUD)
-7º Criação de routes criada por nós para acerdermos aos registos na bd, tal como aparece no enunciado
-8º Teste das rotas criadas utilizando o browser e o Postman 
+1º Alterar a porta de entrada, para a porta pedida no enunciado(Ficheiro www da pasta bin)
+2º Alterar a app.js para fazer a conexão com o mongodb 
+3º Criar as pastas models e controllers ( Controllers contêm os controlos da bd e na pasta models contêm os Schemas da bd)
+4º Criação do model: Possui os modelos dos objetos existentes na bd.
+5º Criação do controller: Possui os controllers necessários para alterar os registos existentes na base de dados (Operações de CRUD)
+6º Criação de routes criada por nós para acerdermos aos registos na bd, tal como aparece no enunciado
+7º Teste das rotas criadas utilizando o browser e o Postman 
 
 
 EXERCÍCIO 2 -> 
@@ -72,10 +71,8 @@ npm start
 
 Construir a Interface da seguinte forma:
 1º Alterar a porta de entrada, para a porta pedida no enunciado(Ficheiro www da pasta bin)
-2º Criar a pasta controllers ( Controllers contêm os controlos da bd feitos de forma "remota" utilizando o axios para fazer pedidos a API de dados que se encontra a funcionar noutra porta)
-3º Criação do controller: Possui os controllers necessários para alterar os registos existentes na base de dados (Operações de CRUD) - Utiliza o AXIOS 
-4º Criação de routes pedidas no enunciado para serem utilizadas pelo utilizador
-5º Criação das views utilizando o w3.css e o pug
+3º Criação de routes pedidas no enunciado para serem utilizadas pelo utilizador
+4º Criação das views utilizando o w3.css e o pug
 
 
 
